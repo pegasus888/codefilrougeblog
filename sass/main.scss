@@ -1,0 +1,34 @@
+// Custom Colors Variables (in _variables.scss: scss-docs-start theme-color-variables)
+$primary: #c29938;
+$success: #006400;
+$info: #010122;
+$warning: #ffd700;
+$danger: #dc143c;
+$light: #fbf5e5;
+
+
+
+// Import the functions & variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+
+// Add extra Theme Colors Variables (in _variables.scss: scss-docs-start theme-colors-map)
+// Warning: if change one value, it will alter it: then better to add a value to the map to have our own
+$custom-theme-colors: (
+        'altprimary': #bd8a11,
+        'altsecondary': #1b0539,
+        'altwarning': #ff4500,
+        'altdanger': #b22222,
+        'altsuccess': #061e06,
+        'altinfo': #20b2aa,
+        'altlight': #f2ebfa,
+        'altmycolor': #740dd1,
+        'altdark': #020219
+);
+
+// then merge our own to the existing colors-map to use the extra colors
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+// Import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
