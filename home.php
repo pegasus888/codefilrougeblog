@@ -330,10 +330,10 @@
                             <!--Home-->
                         </a>
                     </li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">À propos</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-primary">À propos</a></li>
                     <!--<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>-->
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-primary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-primary">Contact</a></li>
                 </ul>
             </div>
 
@@ -348,9 +348,9 @@
                                 </ul>
                             </div>-->
 
-            <div class="col-md-5 offset-md-1 mb-3">
+            <div class="col-md-5 offset-md-3 mb-3">
                 <form>
-                    <h5>Abonne-toi à la newsletter</h5>
+                    <h5 class="text-info">Abonne-toi à la newsletter</h5>
                     <p>Et reçois les derniers articles</p>
                     <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                         <label for="newsletter1" class="visually-hidden">Email</label>
