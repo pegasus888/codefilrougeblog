@@ -140,7 +140,7 @@
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
                 <!--<svg  width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>-->
-                <img class="bi me-2 rounded-circle shadow" src="assets/images/filrougelogo.png" width="60" height="52" alt="logo" style="object-fit: cover;">
+                <img class="bi me-2 rounded-circle shadow" src="public/assets/images/no_image.jpg" width="60" height="52" alt="logo" style="object-fit: cover;">
             </a>
 
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
@@ -186,25 +186,25 @@
     <ol>
         <li>
             <a href="https://phpblog/lifestyle.com" target="_blank">
-                <img src="assets/images/no_image.jpg">
+                <img src="public/assets/images/no_image.jpg">
                 <div class="ism-caption ism-caption-0">Hobby</div>
             </a>
         </li>
         <li>
             <a href="https://phpblog/environement.com" target="_blank">
-                <img src="assets/images/no_image.jpg">
+                <img src="public/assets/images/no_image.jpg"
                 <div class="ism-caption ism-caption-1" data-delay='200'>Code</div>
             </a>
         </li>
         <li>
             <a href="https://phpblog/techno.com" target="_blank">
-                <img src="assets/images/no_image.jpg">
+                <img src="public/assets/images/no_image.jpg"
                 <div class="ism-caption ism-caption-1" data-delay='200'>Travail</div>
             </a>
         </li>
         <li>
             <a href="https://phpblog/society.com" target="_blank">
-                <img src="assets/images/no_image.jpg">
+                <img src="public/assets/images/no_image.jpg"
                 <div class="ism-caption ism-caption-2" data-delay='500'>Life</div>
             </a>
         </li>
@@ -226,7 +226,7 @@
                     <h3 class="mb-0">Titre</h3>
                     <div class="mb-1 text-body-secondary">Nov 12</div>
                     <div class="col-lg-auto col-12 d-lg-block">
-                        <img class="bd-placeholder-img mb-3 w-100" width="200" height="250" src="assets/images/techno.jpg" alt="">
+                        <img class="bd-placeholder-img mb-3 w-100" width="200" height="250" src="public/assets/images/techno.jpg" alt="">
                     </div>
                     <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                     <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
@@ -247,7 +247,7 @@
                     <div class="mb-1 text-body-secondary">Nov 11</div>
                     <div class="col-lg-auto col-12 d-lg-block">
                         <!--<svg class="bd-placeholder-img w-100" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
-                        <img class="bd-placeholder-img mb-3 w-100" width="200" height="250" style="object-fit: cover;" src="assets/images/techno.jpg" alt="">
+                        <img class="bd-placeholder-img mb-3 w-100" width="200" height="250" style="object-fit: cover;" src="public/assets/images/techno.jpg" alt="">
                     </div>
                     <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                     <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
@@ -268,7 +268,7 @@
                     <div class="mb-1 text-body-secondary">Nov 11</div>
                     <div class="col-lg-auto col-12 d-lg-block">
                         <!--<svg class="bd-placeholder-img w-100" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
-                        <img class="bd-placeholder-img mb-3 w-100" width="200" height="250" style="object-fit: cover;" src="assets/images/techno.jpg" alt="">
+                        <img class="bd-placeholder-img mb-3 w-100" width="200" height="250" style="object-fit: cover;" src="public/assets/images/techno.jpg" alt="">
                     </div>
                     <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                     <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
@@ -289,7 +289,7 @@
                     <div class="mb-1 text-body-secondary">Nov 11</div>
                     <div class="col-lg-auto col-12 d-lg-block">
                         <!--<svg class="bd-placeholder-img w-100" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
-                        <img class="bd-placeholder-img mb-3 w-100" width="200" height="250" style="object-fit: cover;" src="assets/images/techno.jpg" alt="">
+                        <img class="bd-placeholder-img mb-3 w-100" width="200" height="250" style="object-fit: cover;" src="public/assets/images/techno.jpg" alt="">
                     </div>
                     <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                     <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
