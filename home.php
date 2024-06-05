@@ -144,8 +144,8 @@
             </a>
 
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-                <li><a href="#" class="nav-link px-2 link-body-primary">Blog</a></li>
+                <li><a href="#" class="nav-link px-2 link-info">Home</a></li>
+                <li><a href="#" class="nav-link px-2 link-underline-primary">DWWM<sub><i>Blog</i></sub></a></li>
                 <!--<li><a href="#" class="nav-link px-2 link-body-emphasis">Catégories</a></li>-->
                 <li><a href="#" class="nav-link px-2 link-body-primary">Hobby</a></li>
                 <li><a href="#" class="nav-link px-2 link-body-primary">Code</a></li>
@@ -187,7 +187,7 @@
         <li>
             <a href="#" target="_blank">
                 <img src="public/assets/images/no_image.jpg">
-                <div class="ism-caption ism-caption-0"><!--Hobby--></div>
+                <div class="ism-caption ism-caption-0 bg-altdark">DWWM<sub><i>Blog</i></sub></div>
             </a>
         </li>
         <li>
@@ -224,7 +224,7 @@
                 <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 text-success">Hobby</strong>
                     <h3 class="mb-0 text-info">Une passion pour la lecture</h3>
-                    <div class="mb-1 text-body-secondary">le 12 Juin</div>
+                    <div class="mb-1 text-body-secondary">Auteur, date</div>
                     <div class="col-lg-auto col-12 d-lg-block">
                         <img class="bd-placeholder-img mb-3 w-100" width="200" height="250" src="public/assets/images/techno.jpg" alt="">
                     </div>
@@ -244,7 +244,7 @@
                 <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 text-success">Code</strong>
                     <h3 class="mb-0 text-info">Bootstrap en deux mots</h3>
-                    <div class="mb-1 text-body-secondary">le 20 Juil</div>
+                    <div class="mb-1 text-body-secondary">Auteur, date</div>
                     <div class="col-lg-auto col-12 d-lg-block">
                         <!--<svg class="bd-placeholder-img w-100" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
                         <img class="bd-placeholder-img mb-3 w-100" width="200" height="250" style="object-fit: cover;" src="public/assets/images/techno.jpg" alt="">
@@ -265,7 +265,7 @@
                 <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 text-success">Travail</strong>
                     <h3 class="mb-0 text-info">Mon stage en DevOps </h3>
-                    <div class="mb-1 text-body-secondary">le 18 nov</div>
+                    <div class="mb-1 text-body-secondary">Auteur, date</div>
                     <div class="col-lg-auto col-12 d-lg-block">
                         <!--<svg class="bd-placeholder-img w-100" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
                         <img class="bd-placeholder-img mb-3 w-100" width="200" height="250" style="object-fit: cover;" src="public/assets/images/techno.jpg" alt="">
@@ -286,7 +286,7 @@
                 <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 text-success">Life</strong>
                     <h3 class="mb-0 text-info">Une vie au soleil</h3>
-                    <div class="mb-1 text-body-secondary">le 30 mars</div>
+                    <div class="mb-1 text-body-secondary">Auteur, date</div>
                     <div class="col-lg-auto col-12 d-lg-block">
                         <!--<svg class="bd-placeholder-img w-100" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
                         <img class="bd-placeholder-img mb-3 w-100" width="200" height="250" style="object-fit: cover;" src="public/assets/images/techno.jpg" alt="">
