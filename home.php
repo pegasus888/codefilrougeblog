@@ -145,12 +145,12 @@
 
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                 <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-                <li><a href="#" class="nav-link px-2 link-body-emphasis">Blog</a></li>
+                <li><a href="#" class="nav-link px-2 link-body-primary">Blog</a></li>
                 <!--<li><a href="#" class="nav-link px-2 link-body-emphasis">Catégories</a></li>-->
-                <li><a href="#" class="nav-link px-2 link-body-emphasis">Hobby</a></li>
-                <li><a href="#" class="nav-link px-2 link-body-emphasis">Code</a></li>
-                <li><a href="#" class="nav-link px-2 link-body-emphasis">Travail</a></li>
-                <li><a href="#" class="nav-link px-2 link-body-emphasis">Life</a></li>
+                <li><a href="#" class="nav-link px-2 link-body-primary">Hobby</a></li>
+                <li><a href="#" class="nav-link px-2 link-body-primary">Code</a></li>
+                <li><a href="#" class="nav-link px-2 link-body-primary">Travail</a></li>
+                <li><a href="#" class="nav-link px-2 link-body-primary">Life</a></li>
             </ul>
 
             <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
@@ -163,13 +163,13 @@
                     <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
                 </a>
                 <ul class="dropdown-menu text-small">
-                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Profil</a></li>
                     <li><a class="dropdown-item" href="#">Admin</a></li>
-                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#"><!--Settings--></a></li>
                     <li>
                         <hr class="dropdown-divider">
                     </li>
-                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    <li><a class="dropdown-item" href="#">Se déconnecter</a></li>
                 </ul>
             </div>
         </div>
@@ -187,16 +187,16 @@
         <li>
             <a href="#" target="_blank">
                 <img src="public/assets/images/no_image.jpg">
-                <div class="ism-caption ism-caption-0">Hobby</div>
+                <div class="ism-caption ism-caption-0"><!--Hobby--></div>
             </a>
         </li>
         <li>
             <a href="#" target="_blank">
                 <img src="public/assets/images/no_image.jpg"
-                <div class="ism-caption ism-caption-1" data-delay='200'>Code</div>
+                <div class="ism-caption ism-caption-1" data-delay='200'><!--Code--></div>
             </a>
         </li>
-        <li>
+<!--        <li>
             <a href="#" target="_blank">
                 <img src="public/assets/images/no_image.jpg"
                 <div class="ism-caption ism-caption-1" data-delay='200'>Travail</div>
@@ -207,7 +207,7 @@
                 <img src="public/assets/images/no_image.jpg"
                 <div class="ism-caption ism-caption-2" data-delay='500'>Life</div>
             </a>
-        </li>
+        </li>-->
     </ol>
 </div>
 <!--/Slider-->
@@ -220,11 +220,11 @@
 
         <!--Card 1-->
         <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-altlight">
                 <div class="col p-4 d-flex flex-column position-static">
-                    <strong class="d-inline-block mb-2 text-primary-emphasis">Hobbies</strong>
-                    <h3 class="mb-0">Titre</h3>
-                    <div class="mb-1 text-body-secondary">Nov 12</div>
+                    <strong class="d-inline-block mb-2 text-success">Hobby</strong>
+                    <h3 class="mb-0 text-info">Une passion pour la lecture</h3>
+                    <div class="mb-1 text-body-secondary">le 12 Juin</div>
                     <div class="col-lg-auto col-12 d-lg-block">
                         <img class="bd-placeholder-img mb-3 w-100" width="200" height="250" src="public/assets/images/techno.jpg" alt="">
                     </div>
@@ -240,11 +240,11 @@
 
         <!--Card 2-->
         <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-altlight">
                 <div class="col p-4 d-flex flex-column position-static">
-                    <strong class="d-inline-block mb-2 text-success-emphasis">Code</strong>
-                    <h3 class="mb-0">Titre</h3>
-                    <div class="mb-1 text-body-secondary">Nov 11</div>
+                    <strong class="d-inline-block mb-2 text-success">Code</strong>
+                    <h3 class="mb-0 text-info">Bootstrap en deux mots</h3>
+                    <div class="mb-1 text-body-secondary">le 20 Juil</div>
                     <div class="col-lg-auto col-12 d-lg-block">
                         <!--<svg class="bd-placeholder-img w-100" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
                         <img class="bd-placeholder-img mb-3 w-100" width="200" height="250" style="object-fit: cover;" src="public/assets/images/techno.jpg" alt="">
@@ -261,11 +261,11 @@
 
         <!--Card 3-->
         <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-altlight">
                 <div class="col p-4 d-flex flex-column position-static">
-                    <strong class="d-inline-block mb-2 text-success-emphasis">Travail</strong>
-                    <h3 class="mb-0">Titre</h3>
-                    <div class="mb-1 text-body-secondary">Nov 11</div>
+                    <strong class="d-inline-block mb-2 text-success">Travail</strong>
+                    <h3 class="mb-0 text-info">Mon stage en DevOps </h3>
+                    <div class="mb-1 text-body-secondary">le 18 nov</div>
                     <div class="col-lg-auto col-12 d-lg-block">
                         <!--<svg class="bd-placeholder-img w-100" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
                         <img class="bd-placeholder-img mb-3 w-100" width="200" height="250" style="object-fit: cover;" src="public/assets/images/techno.jpg" alt="">
@@ -282,11 +282,11 @@
 
         <!--Card 4-->
         <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-altlight">
                 <div class="col p-4 d-flex flex-column position-static">
-                    <strong class="d-inline-block mb-2 text-success-emphasis">Life</strong>
-                    <h3 class="mb-0">Titre</h3>
-                    <div class="mb-1 text-body-secondary">Nov 11</div>
+                    <strong class="d-inline-block mb-2 text-success">Life</strong>
+                    <h3 class="mb-0 text-info">Une vie au soleil</h3>
+                    <div class="mb-1 text-body-secondary">le 30 mars</div>
                     <div class="col-lg-auto col-12 d-lg-block">
                         <!--<svg class="bd-placeholder-img w-100" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
                         <img class="bd-placeholder-img mb-3 w-100" width="200" height="250" style="object-fit: cover;" src="public/assets/images/techno.jpg" alt="">
@@ -327,7 +327,7 @@
                     <li class="nav-item">
                         <a class="nav-link d-flex align-items-center gap-2" href="home.php">
                             <i class="bi bi-house"></i>
-                            Home
+                            <!--Home-->
                         </a>
                     </li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">À propos</a></li>
@@ -373,7 +373,8 @@
 </div>
 <!--/Footer-->
 
-<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!--<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
