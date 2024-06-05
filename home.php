@@ -13,10 +13,9 @@
     <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <<!--link href="../css/style.css" rel="stylesheet">-->
+    <link href="css/style.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
 
     <style>
 
@@ -131,7 +130,7 @@
     </style>
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/headers.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -147,8 +146,8 @@
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                 <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
                 <li><a href="#" class="nav-link px-2 link-body-emphasis">Blog</a></li>
-                <li><a href="#" class="nav-link px-2 link-body-emphasis">Catégories</a></li>
-                <li><a href="#" class="nav-link px-2 link-body-emphasis">Hobbies</a></li>
+                <!--<li><a href="#" class="nav-link px-2 link-body-emphasis">Catégories</a></li>-->
+                <li><a href="#" class="nav-link px-2 link-body-emphasis">Hobby</a></li>
                 <li><a href="#" class="nav-link px-2 link-body-emphasis">Code</a></li>
                 <li><a href="#" class="nav-link px-2 link-body-emphasis">Travail</a></li>
                 <li><a href="#" class="nav-link px-2 link-body-emphasis">Life</a></li>
@@ -159,15 +158,18 @@
             </form>
 
             <div class="dropdown text-end">
-                <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="assets/images/no_image.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+                <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                   data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
                 </a>
                 <ul class="dropdown-menu text-small">
-                    <li><a class="dropdown-item" href="#">Profil</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
                     <li><a class="dropdown-item" href="#">Admin</a></li>
-                    <li><a class="dropdown-item" href="#">Paramètres</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Se déconnecter</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Sign out</a></li>
                 </ul>
             </div>
         </div>
@@ -185,7 +187,7 @@
         <li>
             <a href="https://phpblog/lifestyle.com" target="_blank">
                 <img src="assets/images/no_image.jpg">
-                <div class="ism-caption ism-caption-0">Hobbies</div>
+                <div class="ism-caption ism-caption-0">Hobby</div>
             </a>
         </li>
         <li>
@@ -211,7 +213,7 @@
 <!--/Slider-->
 
 <main class="p-2">
-    <h1 class="mx-4">Articles</h1>
+    <h1 class="mx-4 text-altmycolor">Articles</h1>
 
     <!--Post-->
     <div class="row mb-2">
