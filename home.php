@@ -179,31 +179,31 @@
 
 <!-- <div class='container'> Slider-->
 <link href="http://fonts.googleapis.com/css?family=Crafty+Girls" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="assets/slider/ism/css/my-slider.css"/>
-<script src="assets/slider/ism/js/ism-2.2.min.js"></script>
+<link rel="stylesheet" href="public/assets/slider/ism/css/my-slider.css"/>
+<script src="public/assets/slider/ism/js/ism-2.2.min.js"></script>
 
 <div class="ism-slider" data-play_type="once" data-interval="3000" id="my-slider">
     <ol>
         <li>
-            <a href="https://phpblog/lifestyle.com" target="_blank">
+            <a href="#" target="_blank">
                 <img src="public/assets/images/no_image.jpg">
                 <div class="ism-caption ism-caption-0">Hobby</div>
             </a>
         </li>
         <li>
-            <a href="https://phpblog/environement.com" target="_blank">
+            <a href="#" target="_blank">
                 <img src="public/assets/images/no_image.jpg"
                 <div class="ism-caption ism-caption-1" data-delay='200'>Code</div>
             </a>
         </li>
         <li>
-            <a href="https://phpblog/techno.com" target="_blank">
+            <a href="#" target="_blank">
                 <img src="public/assets/images/no_image.jpg"
                 <div class="ism-caption ism-caption-1" data-delay='200'>Travail</div>
             </a>
         </li>
         <li>
-            <a href="https://phpblog/society.com" target="_blank">
+            <a href="#" target="_blank">
                 <img src="public/assets/images/no_image.jpg"
                 <div class="ism-caption ism-caption-2" data-delay='500'>Life</div>
             </a>
@@ -213,7 +213,7 @@
 <!--/Slider-->
 
 <main class="p-2">
-    <h1 class="mx-4 text-altmycolor">Articles</h1>
+    <h1 class="mx-4 text-primary">Articles</h1>
 
     <!--Post-->
     <div class="row mb-2">
