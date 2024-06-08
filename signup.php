@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
 <head>
-    <!--    <script src="../assets/js/color-modes.js"></script>-->
+<!--    <script src="../assets/js/color-modes.js"></script>-->
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>Login - DWWM Blog</title>
+    <title>Sign up - DWWM Blog</title>
 
     <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 
@@ -155,27 +155,33 @@
 <main class="form-signin w-100 m-auto">
     <form method="post">
         <img class="mb-4 rounded-circle shadow" src="public/assets/images/no_image.jpg" alt="logo" width="92" height="92" style="object-fit: cover;">
-        <h1 class="h3 mb-3 fw-normal">Se connecter</h1>
+        <h1 class="h3 mb-3 fw-normal">Créer un compte</h1>
 
+        <div class="form-floating">
+            <input name="username" class="form-control" id="floatingInput" placeholder="username">
+            <label for="floatingInput">Identifiant</label>
+        </div>
         <div class="form-floating">
             <input name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">Email</label>
         </div>
         <div class="form-floating">
             <input name="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Mot de Passe</label>
+            <label for="floatingPassword">Mot de passe</label>
+        </div>
+        <div class="form-floating">
+            <input name="retype_password" class="form-control" id="floatingPassword" placeholder="Retype Password">
+            <label for="floatingPassword">Retaper le Mot de Passe</label>
         </div>
 
-        <div class="my-2">Aucun compte? <a href="signup.php" class="">S'inscrire ici</a></div>
+        <div class="my-2">Déjà un compte? <a href="login.php" class="">Se connecter ici</a></div>
         <div class="form-check text-start my-3">
-            <input name="remember" type="checkbox" value="1" id="flexCheckDefault">
-            <!--Add bg primary to the checked box, because still in blue!-->
-
+            <input name="terms" type="checkbox" value="remember-me" id="flexCheckDefault">
             <label class="form-check-label" for="flexCheckDefault">
-                Se souvenir de moi
+                Accepter les termes et conditions
             </label>
         </div>
-        <button class="btn btn-primary w-100 py-2" type="submit">Se connecter</button>
+        <button class="btn btn-primary w-100 py-2" type="submit">Créer</button>
         <p class="mt-5 mb-3 text-body-secondary">&copy; <?= date("Y")?> Xxxx Blog, All rights reserved.</p>
     </form>
 </main>
