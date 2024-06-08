@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>Admin - My Blog</title>
+    <title>Admin - DWWM Blog</title>
 
     <link href="/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 
@@ -203,7 +203,7 @@
 </svg>
 
 <header class="navbar sticky-top bg-altlight flex-md-nowrap p-0 shadow" data-bs-theme="dark">
-    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 text-white" href="#">My Blog</a>
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 text-white" href="#">DWWM<sub><i>Blog</i></sub></a>
 
     <ul class="navbar-nav flex-row d-md-none">
         <li class="nav-item text-nowrap">
@@ -228,7 +228,7 @@
         <div class="sidebar border border-right col-md-3 col-lg-2 p-0 bg-body-tertiary">
             <div class="offcanvas-md offcanvas-end bg-body-tertiary" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="sidebarMenuLabel">Company name</h5>
+                    <h5 class="offcanvas-title" id="sidebarMenuLabel">DWWM<sub><i>Blog</i></sub></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebarMenu" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
@@ -236,7 +236,7 @@
                         <li class="nav-item">
                             <a class="nav-link d-flex align-items-center gap-2 active text-success text-uppercase" aria-current="page" href="#">
                                 <i class="bi bi-speedometer text-success"></i>
-                                Dashboard
+<!--                                Dashboard-->
                             </a>
                         </li>
                         <li class="nav-item">
@@ -310,7 +310,7 @@
                         <li class="nav-item">
                             <a class="nav-link d-flex align-items-center gap-2 text-success text-uppercase" href="#">
                                 <svg class="bi"><use xlink:href="#gear-wide-connected"/></svg>
-                                Settings
+<!--                                Settings-->
                             </a>
                         </li>
                         <li class="nav-item">
