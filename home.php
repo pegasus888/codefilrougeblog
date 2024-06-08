@@ -160,7 +160,7 @@
             <div class="dropdown text-end">
                 <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
                    data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                    <img src="public/assets/images/no_image.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
                 </a>
                 <ul class="dropdown-menu text-small">
                     <li><a class="dropdown-item" href="#">Profil</a></li>
@@ -177,43 +177,57 @@
 </header>
 <!--/Header-->
 
-<!-- <div class='container'> Slider-->
+<!-- Slider-->
+<!--<div class='container'>-->
 <link href="http://fonts.googleapis.com/css?family=Crafty+Girls" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="public/assets/slider/ism/css/my-slider.css"/>
 <script src="public/assets/slider/ism/js/ism-2.2.min.js"></script>
 
 <div class="ism-slider" data-play_type="once" data-interval="3000" id="my-slider">
     <ol>
+        <!-- Slider 1 -->
         <li>
-            <a href="#" target="_blank">
+            <a href="https://phpblog/lifestyle.com" target="_blank">
                 <img src="public/assets/images/no_image.jpg">
                 <div class="ism-caption ism-caption-0 bg-altdark">DWWM<sub><i>Blog</i></sub></div>
             </a>
         </li>
+        <!-- /Slider 1 -->
+
+        <!-- Slider 2 -->
         <li>
-            <a href="#" target="_blank">
-                <img src="public/assets/images/no_image.jpg"
-                <div class="ism-caption ism-caption-1" data-delay='200'><!--Code--></div>
+            <a href="https://phpblog/environement.com" target="_blank">
+                <img src="public/assets/images/no_image.jpg">
+                <div class="ism-caption ism-caption-1 text-danger" data-delay='200'>My slide caption text</div>
             </a>
         </li>
-<!--        <li>
-            <a href="#" target="_blank">
-                <img src="public/assets/images/no_image.jpg"
-                <div class="ism-caption ism-caption-1" data-delay='200'>Travail</div>
+        <!-- /Slider 2 -->
+
+        <!-- Slider 3 -->
+        <li>
+            <a href="https://phpblog/techno.com" target="_blank">
+                <img src="public/assets/images/no_image.jpg">
+                <div class="ism-caption ism-caption-1" data-delay='200'>My slide caption text</div>
             </a>
         </li>
+        <!-- /Slider 3 -->
+
+        <!-- Slider 4 -->
         <li>
-            <a href="#" target="_blank">
-                <img src="public/assets/images/no_image.jpg"
-                <div class="ism-caption ism-caption-2" data-delay='500'>Life</div>
+            <a href="https://phpblog/society.com" target="_blank">
+                <img src="public/assets/images/no_image.jpg">
+                <div class="ism-caption ism-caption-2 text-altmycolor" data-delay='500'>My slide caption text</div>
             </a>
-        </li>-->
+        </li>
+        <!-- /Slider 4 -->
     </ol>
 </div>
+<!--</div>-->
 <!--/Slider-->
 
 <main class="p-2">
     <h1 class="mx-4 text-primary">Articles</h1>
+
 
     <!--Post-->
     <div class="row mb-2">
@@ -264,7 +278,7 @@
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-altlight">
                 <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 text-success">Travail</strong>
-                    <h3 class="mb-0 text-info">Mon stage en DevOps </h3>
+                    <h3 class="mb-0 text-info">Kit de survie du stagiaire</h3>
                     <div class="mb-1 text-body-secondary">Auteur, date</div>
                     <div class="col-lg-auto col-12 d-lg-block">
                         <!--<svg class="bd-placeholder-img w-100" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
@@ -285,7 +299,7 @@
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-altlight">
                 <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 text-success">Life</strong>
-                    <h3 class="mb-0 text-info">Une vie au soleil</h3>
+                    <h3 class="mb-0 text-info">La vie au soleil</h3>
                     <div class="mb-1 text-body-secondary">Auteur, date</div>
                     <div class="col-lg-auto col-12 d-lg-block">
                         <!--<svg class="bd-placeholder-img w-100" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
