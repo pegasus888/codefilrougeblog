@@ -321,7 +321,7 @@
 
 <!--Footer-->
 <div class="container">
-    <footer class="py-5">
+    <footer class="py-2">
         <div class="row">
             <!--                <div class="col-6 col-md-2 mb-3">
                                 <h5>Section</h5>
@@ -362,7 +362,7 @@
                                 </ul>
                             </div>-->
 
-            <div class="col-md-5 offset-md-3 mb-3">
+            <div class="col-md-5 offset-md-3 mb-3 mx-auto>
                 <form>
                     <h5 class="text-info">Abonne-toi à la newsletter</h5>
                     <p>Et reçois les derniers articles</p>
@@ -375,7 +375,7 @@
             </div>
         </div>
 
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 mx-4 border-top">
             <p>&copy; 2024 DWWM Blog, All rights reserved.</p>
             <ul class="list-unstyled d-flex">
                 <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
