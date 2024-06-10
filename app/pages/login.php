@@ -158,11 +158,11 @@
         <h1 class="h3 mb-3 fw-normal">Se connecter</h1>
 
         <div class="form-floating">
-            <input name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <input name="email" class="form-control mb-2" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">Email</label>
         </div>
         <div class="form-floating">
-            <input name="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <input name="password" class="form-control mb-2" id="floatingPassword" placeholder="Password">
             <label for="floatingPassword">Mot de Passe</label>
         </div>
 
