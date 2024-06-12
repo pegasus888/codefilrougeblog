@@ -24,8 +24,12 @@
         <td>Image</td>
         <td>Date</td>
     </tr>
-    <button class="btn btn-warning btn-sm text-info"><i class="bi bi-vector-pen"></i></button>
-    <button class="btn btn-danger btn-sm text-white"><i class="bi bi-trash3"></i></button>
+    <a href="" class="">
+        <button class="btn btn-warning btn-sm text-info"><i class="bi bi-vector-pen"></i></button>
+    </a>
+    <a href="" class="">
+        <button class="btn btn-danger btn-sm text-white"><i class="bi bi-trash3"></i></button>
+    </a>
 
 
 </table>
