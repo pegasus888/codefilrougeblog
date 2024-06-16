@@ -10,10 +10,10 @@
         <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
         <link href="assets/css/bootstrap-icons.min.css" rel="stylesheet">-->
 
-    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
@@ -130,7 +130,7 @@
     </style>
 
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -160,7 +160,7 @@
             <div class="dropdown text-end">
                 <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
                    data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="public/assets/images/no_image.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+                    <img src="/public/assets/images/no_image.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
                 </a>
                 <ul class="dropdown-menu text-small">
                     <li><a class="dropdown-item" href="#">Profil</a></li>
@@ -180,15 +180,15 @@
 <!-- Slider-->
 <!--<div class='container'>-->
 <link href="http://fonts.googleapis.com/css?family=Crafty+Girls" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="public/assets/slider/ism/css/my-slider.css"/>
-<script src="public/assets/slider/ism/js/ism-2.2.min.js"></script>
+<link rel="stylesheet" href="/public/assets/slider/ism/css/my-slider.css"/>
+<script src="/public/assets/slider/ism/js/ism-2.2.min.js"></script>
 
 <div class="ism-slider" data-play_type="once" data-interval="3000" id="my-slider">
     <ol>
         <!-- Slider 1 -->
         <li>
             <a href="https://phpblog/lifestyle.com" target="_blank">
-                <img src="public/assets/images/no_image.jpg">
+                <img src="/public/assets/images/no_image.jpg">
                 <div class="ism-caption ism-caption-0 bg-altdark">DWWM<sub><i>Blog</i></sub></div>
             </a>
         </li>
@@ -197,7 +197,7 @@
         <!-- Slider 2 -->
         <li>
             <a href="https://phpblog/environement.com" target="_blank">
-                <img src="public/assets/images/no_image.jpg">
+                <img src="/public/assets/images/no_image.jpg">
                 <div class="ism-caption ism-caption-1 text-danger" data-delay='200'>My slide caption text</div>
             </a>
         </li>
@@ -206,7 +206,7 @@
         <!-- Slider 3 -->
         <li>
             <a href="https://phpblog/techno.com" target="_blank">
-                <img src="public/assets/images/no_image.jpg">
+                <img src="/public/assets/images/no_image.jpg">
                 <div class="ism-caption ism-caption-1" data-delay='200'>My slide caption text</div>
             </a>
         </li>
@@ -215,7 +215,7 @@
         <!-- Slider 4 -->
         <li>
             <a href="https://phpblog/society.com" target="_blank">
-                <img src="public/assets/images/no_image.jpg">
+                <img src="/public/assets/images/no_image.jpg">
                 <div class="ism-caption ism-caption-2 text-altmycolor" data-delay='500'>My slide caption text</div>
             </a>
         </li>
@@ -345,7 +345,7 @@
                         </a>
                     </li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-primary">À propos</a></li>
-                    <!--<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>-->
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-primary">Login</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-primary">FAQs</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-primary">Contact</a></li>
                 </ul>
@@ -362,7 +362,7 @@
                                 </ul>
                             </div>-->
 
-            <div class="col-md-5 offset-md-3 mb-3 mx-auto>
+            <div class="col-md-5 offset-md-3 mb-3 mx-auto">
                 <form>
                     <h5 class="text-info">Abonne-toi à la newsletter</h5>
                     <p>Et reçois les derniers articles</p>
@@ -387,8 +387,8 @@
 </div>
 <!--/Footer-->
 
-<!--<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>-->
 
 </body>
 </html>
