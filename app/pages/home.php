@@ -226,7 +226,7 @@
 <!--/Slider-->
 
 <main class="p-2">
-    <h1 class="mx-4 text-primary">Articles</h1>
+    <h1 class="display-4 mx-4 text-primary text-center">Articles</h1>
 
 
     <!--Post-->

@@ -1,1 +1,1 @@
-<h1 class="text-warning">Page not found</h1>
+<h1 class="bi-type-h6 text-warning">Page not found</h1>
